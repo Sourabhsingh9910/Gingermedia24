@@ -1,0 +1,45 @@
+.home-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0%;
+    justify-content: center;
+    align-items: center;
+   
+    /* background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37)); */
+} 
+.font{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+.left-content{
+    padding: 1%;
+    order:2;
+}
+.learnmore{
+    background-color:rgb(240, 85, 33);
+    color:white;
+    font-size: 1.3rem;
+    padding: 10px;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.learnmore:hover{background-color:rgba(240, 85, 33, 0.645);}
+.left-content p:nth-child(1){
+    font-size: 2rem;
+}
+.left-content p:nth-child(2){
+    font-size: 4rem;
+}
+.right-content{
+    padding: 5%;
+    overflow: hidden;
+}
+.right-content img{
+    width: 95%;
+   
+    animation: scrl 3s infinite;
+}
+
+
